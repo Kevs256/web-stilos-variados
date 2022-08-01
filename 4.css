@@ -1,0 +1,135 @@
+body{
+    font:100% Courier New;
+    margin: 0;
+    
+}
+/* fuente de la pagina
+eliminar margen por defecto
+interlineado */
+.pantalla{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+/* altura y anchura total sin slide
+centramos todos los elementos
+p*/
+.container{
+    width: 60%;
+    background-color: #000000;
+    padding: 20px;
+    
+}
+.felx{
+    
+}
+
+/*
+acomode a lo que muestra la otra pagina
+ */
+.cuerpo{
+    color:#84c754 ;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+/* organizamos los elementos en linea */
+.titulo{
+    color:#84c754 ;
+    margin-left: 5px;
+    line-height: 10px;
+}
+.titulo h1{
+    font-size: 32px;
+
+    
+}
+.titulo p{
+    font-size: 16px;
+
+    
+}
+/* 
+añadimos estilos al h1
+ */
+
+.contenedor-lista{
+    width: 25%;
+    
+}
+/* contenedor 1 */
+.lista{
+    
+    
+}
+/* hacemos la lista */
+.items{
+    display: list-item;
+    cursor: pointer;
+    line-height: 26px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* 
+estilos de los items de la lista */
+.items:nth-child(4){
+    
+    color: white;
+}
+/* 
+pseudo clase para poner tono al primer elemento */
+
+.main{
+    width: 81%;
+    font: 80% Verdana;
+    line-height: 26px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main h2{
+    color:#84c754 ;
+    font-size: 24px;
+}
+.main h1{
+    color:#84c754 ;
+    font-size: 32px;
+
+}
+.main p{
+    font-size: 16px;
+}
+
+/* contenedor 2 */
+p a{
+    color:white;
+    
+}
+/* todos los a en p de color negro */
+.side-bar{
+    font-size: 12px;
+    width: 18%;
+    color: white;
+    border: solid 2px white;
+    padding: 10px;
+    position: absolute;
+    align-self: flex-end;
+    line-height: 20px;
+}
+.side-bar p{
+
+}
+.side-bar h3{
+
+}
+/* contenedor 3 */
+.foother{
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border: solid white 2px;
+    border-radius: 5px;
+}
+/* contenedor foother */

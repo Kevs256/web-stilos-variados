@@ -1,0 +1,107 @@
+body{
+    font: 100% Lucida Sans, Verdana;
+    margin: 0;
+    line-height: 26px;
+}
+/* fuente de la pagina
+eliminar margen por defecto
+interlineado */
+.pantalla{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+/* altura y anchura total sin slide
+centramos todos los elementos
+p*/
+.container{
+   width: 60%;
+   background: #ffff;
+}
+/*
+acomode a lo que muestra la otra pagina
+ */
+.cuerpo{
+    display: flex;
+}
+/* organizamos los elementos en linea */
+.titulo{
+    background-color:#04AA6D ;
+    padding: 5px;
+    padding-left: 10px;
+    color: #ffff;
+    border-radius: 4px;
+    margin: 4px;
+}
+.titulo h1{
+    margin: 5px;
+}
+.titulo h1{
+    margin: 5px;
+}
+/* 
+añadimos estilos al h1
+ */
+
+.contenedor-lista{
+    width: 18%;
+}
+/* contenedor 1 */
+.lista{
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: disc;
+}
+/* hacemos la lista */
+.items{
+   border: 1px solid #d4d4d4;
+   padding: 2px;
+   cursor:pointer;
+   border-radius: 4px;
+   margin: 4px;
+   display: list-item;
+   text-align:left;
+   list-style-type: none;
+   background-color:#f1f1f1 ;
+}
+/* 
+estilos de los items de la lista */
+.items:first-child{
+    background-color: #04AA6D;
+    color: white;
+    font-weight: bold;
+}
+/* 
+pseudo clase para poner tono al primer elemento */
+
+.main{
+    width: 65%;
+    padding: 15px;
+}
+/* contenedor 2 */
+p a{
+    color: black;
+}
+/* todos los a en p de color negro */
+.side-bar{
+    width: 20%;
+    background-color: #32a4e7;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 4px;
+}
+/* contenedor 3 */
+.foother{
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+    border-radius: 4px;
+    margin: 4px;
+}
+/* contenedor foother */
